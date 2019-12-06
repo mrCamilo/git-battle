@@ -1,4 +1,5 @@
 import React from "react";
+import "./contact.css";
 
 // By importing the Section.css file, it is added to the DOM whenever this component loads
 
@@ -10,136 +11,127 @@ import React from "react";
 // We use JSX curly braces to evaluate the style object on the JSX tag
 
 class Contact extends React.Component {
-  
   render() {
     return (
-        <section className="section">
+      <section className="section">
         <div>
-            <h2 className="h2">Meet the Team</h2>
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/57aa00166a49631b242e53ed/1510673007561-X056O9F323ZM638B8YB0/ke17ZwdGBToddI8pDm48kFAoA1UOHUCAvo_6VPjgLT0UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcRzbJreGzIAM8PBiriMCToGoRlz2xPHa9ybQvWHHnHNu-_TrVLUyaAXlpzDv7SFDn/workpad-07.png"
+            style={{ width: "450px" }}
+          />
         </div>
         <div className="row">
-            <div className="col-md">
+          <div className="col-md">
             <img
-                src="https://res.cloudinary.com/dmer2gzhp/image/upload/v1575506244/image/JW_bifwpd.png"
-                alt="Jake"
-             style={{ width: "200px" }}
+              src="https://res.cloudinary.com/dmer2gzhp/image/upload/v1575506244/image/JW_bifwpd.png"
+              alt="Jake"
+              style={{ width: "250px" }}
             />
-            </div>
-            <div className="col-md">
             <a href="https://github.com/jacobwilder" class="btn btn-light">
-                <i class="fa fa-2x fa-github-square"></i>
+              <i class="fa fa-2x fa-github-square"></i>
             </a>{" "}
             <a
-                href="https://www.linkedin.com/in/jacob-wilder-262b1410b/"
-                className="btn btn-light"
+              href="https://www.linkedin.com/in/jacob-wilder-262b1410b/"
+              className="btn btn-light"
             >
-                <i class="fa fa-2x fa-linkedin"></i>
-             </a>
-            <p>
-                “There are only two ways to live your life. One is as though nothing
-                is a miracle. The other is as though everything is a miracle.” ―
-                Albert Einstein
-             </p>
-            </div>
-
-            <div className="col-md">
-            <img
-                src="https://res.cloudinary.com/dmer2gzhp/image/upload/v1575506244/image/CM_dbwzk9.png"
-                alt="Chris"
-                style={{ width: "200px" }}
-            />
-            </div>
-
-            <div className="col-md">
-            <a href="https://github.com/cmangin87" class="btn btn-light">
-                <i class="fa fa-2x fa-github-square"></i>
-            </a>{" "}
-             <a
-                href="https://www.linkedin.com/in/christopher-mangin-75a7021a/"
-                className="btn btn-light"
-            >
-                <i class="fa fa-2x fa-linkedin"></i>
+              <i class="fa fa-2x fa-linkedin"></i>
             </a>
             <p>
-                “Life isn't about finding yourself. Life is about creating
-                yourself.” ― George Bernard Shaw
+              “There are only two ways to live your life. One is as though
+              nothing is a miracle. The other is as though everything is a
+              miracle.” ― Albert Einstein
             </p>
-            </div>
+          </div>
+
+          <div className="col-md">
+            <img
+              src="https://res.cloudinary.com/dmer2gzhp/image/upload/v1575506244/image/CM_dbwzk9.png"
+              alt="Chris"
+              style={{ width: "250px" }}
+            />
+            <a href="https://github.com/cmangin87" class="btn btn-light">
+              <i class="fa fa-2x fa-github-square"></i>
+            </a>{" "}
+            <a
+              href="https://www.linkedin.com/in/christopher-mangin-75a7021a/"
+              className="btn btn-light"
+            >
+              <i class="fa fa-2x fa-linkedin"></i>
+            </a>
+            <p>
+              “Life isn't about finding yourself. Life is about creating
+              yourself.” ― George Bernard Shaw
+            </p>
+          </div>
         </div>
         <div className="row">
-            <div className="col-md">
+          <div className="col-md">
             <img
-                src="https://res.cloudinary.com/dmer2gzhp/image/upload/v1575506244/image/KD_rtivys.png"
-                alt="Kevin"
-                style={{ width: "200px" }}
+              src="https://res.cloudinary.com/dmer2gzhp/image/upload/v1575506244/image/KD_rtivys.png"
+              alt="Kevin"
+              style={{ width: "250px" }}
             />
-            </div>
-            <div className="col-md">
-                <a href="https://github.com/k-darc" class="btn btn-light">
-                <i class="fa fa-2x fa-github-square"></i>
-                </a>{" "}
-                <a
-                    href="https://www.linkedin.com/in/kevin-d-7b87a218b/"
-                    className="btn btn-light"
-                >
-                <i class="fa fa-2x fa-linkedin"></i>
-                </a>
-                <p>
-                    “Just when you think it can't get any worse, it can. And just when
-                    you think it can't get any better, it can.” ― Nicholas Sparks, At
-                    First Sight
-                </p>
-            </div>
+            <a href="https://github.com/k-darc" class="btn btn-light">
+              <i class="fa fa-2x fa-github-square"></i>
+            </a>{" "}
+            <a
+              href="https://www.linkedin.com/in/kevin-d-7b87a218b/"
+              className="btn btn-light"
+            >
+              <i class="fa fa-2x fa-linkedin"></i>
+            </a>
+            <p>
+              “Just when you think it can't get any worse, it can. And just when
+              you think it can't get any better, it can.” ― Nicholas Sparks, At
+              First Sight
+            </p>
+          </div>
 
-            <div className="col-md">
+          <div className="col-md">
             <img
-                src="https://res.cloudinary.com/dmer2gzhp/image/upload/v1575562807/image/manuel_usqrdy.png"
-                alt="Manuel"
-                style={{ width: "200px" }}
+              src="https://res.cloudinary.com/dmer2gzhp/image/upload/v1575562807/image/manuel_usqrdy.png"
+              alt="Manuel"
+              style={{ width: "250px" }}
             />
-            </div>
-            <div className="col-md">
             <a href="https://github.com/mrcamilo" class="btn btn-light">
-                <i class="fa fa-2x fa-github-square"></i>
+              <i class="fa fa-2x fa-github-square"></i>
             </a>{" "}
             <a
-                href="https://www.linkedin.com/in/manuel-camilo/"
-                className="btn btn-light"
+              href="https://www.linkedin.com/in/manuel-camilo/"
+              className="btn btn-light"
             >
-                <i class="fa fa-2x fa-linkedin"></i>
+              <i class="fa fa-2x fa-linkedin"></i>
             </a>
             <p>
-                “To live is the rarest thing in the world. Most people exist, that
-                is all.” ― Oscar Wilde
+              “To live is the rarest thing in the world. Most people exist, that
+              is all.” ― Oscar Wilde
             </p>
-            </div>
+          </div>
 
-            <div className="col-md">
+          <div className="col-md">
             <img
-                src="https://res.cloudinary.com/dmer2gzhp/image/upload/v1575427220/image/KB_drkhn9.jpg"
-                alt="Kate"
-                style={{ width: "200px" }}
+              src="https://res.cloudinary.com/dmer2gzhp/image/upload/v1575427220/image/KB_drkhn9.jpg"
+              alt="Kate"
+              style={{ width: "250px" }}
             />
-            </div>
-            <div className="col-md">
             <a href="https://github.com/Katebond06" className="btn btn-light">
-                <i class="fa fa-2x fa-github-square"></i>
+              <i class="fa fa-2x fa-github-square"></i>
             </a>{" "}
             <a
-                href="https://www.linkedin.com/in/kateryna-bondaruk-810093177/"
-                className="btn btn-light"
+              href="https://www.linkedin.com/in/kateryna-bondaruk-810093177/"
+              className="btn btn-light"
             >
-                <i class="fa fa-2x fa-linkedin"></i>
+              <i class="fa fa-2x fa-linkedin"></i>
             </a>
             <p>
-                “You only live once, but if you do it right, once is enough.” ― Mae
-                West
+              “You only live once, but if you do it right, once is enough.” ―
+              Mae West
             </p>
-            </div>
+          </div>
         </div>
-        </section>
-        );
-    }
+      </section>
+    );
+  }
 }
 
 export default Contact;
